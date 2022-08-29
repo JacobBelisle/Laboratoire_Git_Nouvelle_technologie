@@ -1,3 +1,5 @@
 #!/bin/bash
 
-echo "Hello world";
+read -p "Quel est votre nom : " name
+
+echo "Hello "$name;
